@@ -11,7 +11,7 @@ This is the implementation of the paper "Pseudo-loss Confidence Metric for Semi-
 - RTX 2080TI
 
 ## Prepare Datasets
-Please make sure the datasets follows the structure as following ([process tools](https://github.com/yaoyao-liu/mini-imagenet-tools)), all the processed data can be downloaded from our Baidu Cloud: [[link](https://pan.baidu.com/s/1plz04xZ10sVThYoAO4TryA)][access code 4ud8] or Google Cloud: [[link](https://drive.google.com/drive/folders/1RXrl44bpXSA3LMl7bBke_pQI-Xqf8i9y?usp=sharing)]
+Please make sure the datasets follows the structure as following ([process tools](https://github.com/yaoyao-liu/mini-imagenet-tools)), the processed data of miniimagenet, CIFAR-FS and FC100 can be downloaded from our Baidu Cloud: [[link](https://pan.baidu.com/s/1plz04xZ10sVThYoAO4TryA)][access code 4ud8] or Google Cloud: [[link](https://drive.google.com/drive/folders/1RXrl44bpXSA3LMl7bBke_pQI-Xqf8i9y?usp=sharing)]
 ```
 |--dataset name
     |-- images (folder, contains all images)
