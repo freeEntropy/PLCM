@@ -11,7 +11,7 @@ This is the implementation of the paper "Pseudo-loss Confidence Metric for Semi-
 - RTX 2080TI
 
 ## Prepare Datasets
-Please make sure the datasets follows the structure as following ([process tools](https://github.com/yaoyao-liu/mini-imagenet-tools)), the processed data of miniimagenet, CIFAR-FS and FC100 can be downloaded from our Baidu Cloud: [[link](https://pan.baidu.com/s/1plz04xZ10sVThYoAO4TryA)][access code 4ud8] or Google Cloud: [[link](https://drive.google.com/drive/folders/1RXrl44bpXSA3LMl7bBke_pQI-Xqf8i9y?usp=sharing)]
+Please make sure the datasets follows the structure as following ([process tools](https://github.com/yaoyao-liu/mini-imagenet-tools)), the processed data of miniimagenet, CIFAR-FS and FC100 can be downloaded from our Baidu Cloud: [[link](https://pan.baidu.com/s/1plz04xZ10sVThYoAO4TryA)][access code with 4ud8] or Google Cloud: [[link](https://drive.google.com/drive/folders/1RXrl44bpXSA3LMl7bBke_pQI-Xqf8i9y?usp=sharing)]
 ```
 |--dataset name
     |-- images (folder, contains all images)
@@ -38,7 +38,7 @@ python main.py --dataset dataset_name --way 5 --shot 1 --unlabel 30
 
 ## Usage for Pre-trained Models
 We also provided the pre-trained models to skip the training of step 1, which are stored in ckpt folder.
-Baidu Cloud: [[link](https://pan.baidu.com/s/1PBMvL_xYiCx0ycZpp7Q-4Q)][access code ujux] or Google Cloud: [[link](https://drive.google.com/drive/folders/1d7lwJtdqi8qRD6Tx_zcaTI7roI4We6WL?usp=sharing)]
+Baidu Cloud: [[link](https://pan.baidu.com/s/1PBMvL_xYiCx0ycZpp7Q-4Q)][access code with ujux] or Google Cloud: [[link](https://drive.google.com/drive/folders/1d7lwJtdqi8qRD6Tx_zcaTI7roI4We6WL?usp=sharing)]
 
 ## BibTeX
 If you use this code for your research, please consider citing:
